@@ -8,7 +8,8 @@ CREATE TABLE tb_funcionario (
     Cargo VARCHAR(30) NOT NULL,
     Salario DECIMAL(10,2) NOT NULL,
     DataAdmissao DATE NOT NULL,
-    Email VARCHAR(255) NOT NULL
+    Email VARCHAR(255) NOT NULL,
+    PRIMARY KEY (Id)
 );
 
 INSERT INTO tb_funcionario 
